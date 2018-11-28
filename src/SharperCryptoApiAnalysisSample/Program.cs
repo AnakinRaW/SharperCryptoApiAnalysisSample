@@ -9,4 +9,12 @@ namespace SharperCryptoApiAnalysisSample
             Console.WriteLine("Hello World!");
         }
     }
+
+    class Test
+    {
+        static void Run()
+        {
+
+        }
+    }
 }

@@ -9,3 +9,4 @@ namespace SharperCryptoApiAnalysisSample
         Console.WriteLine("Hello Sharper Crypto-API Analysis");
 	}
 }
+
