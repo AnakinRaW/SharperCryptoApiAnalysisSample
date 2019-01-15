@@ -1,0 +1,11 @@
+This document lists global changes made to files created by David Störmer's DisposableFixer.
+
+A global change is considered as a change to existing source code that applies to multiple or all source code documents. 
+Specific changes to the source code are documentd in the source code file.
+
+Global Change: 
+	- New namespaces for all files
+	- Applied minor refactoring in brace style to match C# code convention rather than Java conventions.
+	- Removed Roslyn CodeFix code from project
+	- Changed Diagnistic IDs of the analyzer.
+	- Removed the Vsix project

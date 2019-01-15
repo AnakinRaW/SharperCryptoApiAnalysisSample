@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;
+﻿/*
+ * Additional changes:
+ *          Added more types from System.Security.Cryptography namespace to tracked types
+ */
+using System.Collections.Generic;
 using IDisposableAnalyzer.Misc;
 
 namespace IDisposableAnalyzer.Configuration {

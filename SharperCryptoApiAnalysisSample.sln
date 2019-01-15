@@ -10,8 +10,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FalseCrypt.Crypto", "src\FalseCrypt\FalseCrypt.Crypto\FalseCrypt.Crypto.csproj", "{E64A22AD-B64E-4D6F-B21E-B6A3CED7AE54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analyzer", "Analyzer", "{1A9CA702-BAB4-4E1B-9506-98F8C3152411}"
+	ProjectSection(SolutionItems) = preProject
+		Credits.md = Credits.md
+		src\Analyzer\IDisposableAnalyzer\GlobalChanges.txt = src\Analyzer\IDisposableAnalyzer\GlobalChanges.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposableAnalyzer.Test", "src\Analyzer\IDisposableAnalyzer\IDisposableAnalyzer.Test\IDisposableAnalyzer.Test.csproj", "{8723B7A8-871B-4FD0-8D3D-270008684DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDisposableAnalyzer.Test", "src\Analyzer\IDisposableAnalyzer\IDisposableAnalyzer.Test\IDisposableAnalyzer.Test.csproj", "{8723B7A8-871B-4FD0-8D3D-270008684DA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposableAnalyzer", "src\Analyzer\IDisposableAnalyzer\IDisposableAnalyzer\IDisposableAnalyzer.csproj", "{18C1CF5F-4252-4A7B-9338-467EF836253A}"
 EndProject

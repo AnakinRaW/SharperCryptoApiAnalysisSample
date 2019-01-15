@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Additional changes:
+ *          Changed base class to SharperCryptoApiAnalysisDiagnosticAnalyzer and added a custom severity mapping
+ *          Methods made non-static to get the current severity by the base method GetRule()
+ */
+using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
