@@ -35,10 +35,10 @@
       <HintPath>..\..\..\..\packages\CommonServiceLocator.2.0.4\lib\net47\CommonServiceLocator.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis">
-      <HintPath>..\..\..\..\..\..\..\.nuget\packages\microsoft.codeanalysis.common\2.9.0-beta4-63006-05\lib\netstandard1.3\Microsoft.CodeAnalysis.dll</HintPath>
+      <HintPath>C:\Users\Anakin\.nuget\packages\microsoft.codeanalysis.common\2.9.0-beta4-63006-05\lib\netstandard1.3\Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp">
-      <HintPath>..\..\..\..\..\..\..\.nuget\packages\microsoft.codeanalysis.csharp\2.9.0-beta4-63006-05\lib\netstandard1.3\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <HintPath>C:\Users\Anakin\.nuget\packages\microsoft.codeanalysis.csharp\2.9.0-beta4-63006-05\lib\netstandard1.3\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="SharperCryptoApiAnalysis.Core">
       <HintPath>..\..\..\..\dependencies\SharperCryptoApiAnalysis.Core.dll</HintPath>

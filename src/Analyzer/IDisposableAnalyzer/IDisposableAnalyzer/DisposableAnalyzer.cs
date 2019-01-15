@@ -21,7 +21,7 @@ namespace IDisposableAnalyzer
         private static readonly IConfiguration Configuration = ConfigurationManager.Instance;
 
         public override string Name => "IDisposable Analyzer";
-        public override uint AnalyzerId => 100;
+        public override uint AnalyzerId => 999;
 
         public override ImmutableArray<IAnalysisReport> SupportedReports =>
             ImmutableArray.Create(AnalysisReports.NotDisposedReport);

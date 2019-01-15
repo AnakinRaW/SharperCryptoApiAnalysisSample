@@ -7,13 +7,14 @@ namespace IDisposableAnalyzer.Extensions
     //todo define correct rules
     public static class SyntaxNodeAnalysisContextExtension
     {
-        public const string IdForAnonymousObjectFromObjectCreation = "DF0000";
-        public const string IdForAnonymousObjectFromMethodInvocation = "DF0001";
-        public const string IdForNotDisposedLocalVariable = "DF0010";
-        public const string IdForAssignmendFromObjectCreationToFieldNotDisposed = "DF0020";
-        public const string IdForAssignmendFromMethodInvocationToFieldNotDisposed = "DF0021";
-        public const string IdForAssignmendFromObjectCreationToPropertyNotDisposed = "DF0022";
-        public const string IdForAssignmendFromMethodInvocationToPropertyNotDisposed = "DF0023";
+        //public const string IdForAnonymousObjectFromObjectCreation = "DF0000";
+        //public const string IdForAnonymousObjectFromMethodInvocation = "DF0001";
+        //public const string IdForNotDisposedLocalVariable = "DF0010";
+        //public const string IdForAssignmendFromObjectCreationToFieldNotDisposed = "DF0020";
+        //public const string IdForAssignmendFromMethodInvocationToFieldNotDisposed = "DF0021";
+        //public const string IdForAssignmendFromObjectCreationToPropertyNotDisposed = "DF0022";
+        //public const string IdForAssignmendFromMethodInvocationToPropertyNotDisposed = "DF0023";
+        public const string DiagnosticId = DisposableAnalyzer.DiagnosticId;
         private const string Category = "Wrong Usage";
 
         //#region AnonymousObjectFromMethod

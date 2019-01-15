@@ -1,10 +1,8 @@
 ﻿using System.Collections.Generic;
 using FluentAssertions;
-using IDisposableAnalyzer.Test;
-using IDisposableAnalyzer.Test.DisposeableFixerAnalyzerSpecs;
 using NUnit.Framework;
 
-namespace DisposableFixer.Test.DisposeableFixerAnalyzerSpecs.Using
+namespace IDisposableAnalyzer.Test.DisposeableFixerAnalyzerSpecs.Using
 {
     internal class If_disposables_is_using_within_using : DisposeableFixerAnalyzerSpec
     {
