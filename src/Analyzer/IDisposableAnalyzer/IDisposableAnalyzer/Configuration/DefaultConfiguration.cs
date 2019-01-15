@@ -25,6 +25,12 @@ namespace IDisposableAnalyzer.Configuration {
                 "LumenWorks.Framework.IO.Csv.CsvReader",
                 "System.Xml.XmlTextReader",
                 "System.Xml.XmlTextWriter",
+                //Added new crypto types
+                "System.Security.Cryptography.CryptoAPITransform",
+                "System.Security.Cryptography.FromBase64Transform",
+                "System.Security.Cryptography.RijndaelManagedTransform",
+                "System.Security.Cryptography.ToBase64Transform",
+                "System.Security.Cryptography.HashAlgorithm",      
             };
             IgnoredInterfaces = new HashSet<string>
             {
