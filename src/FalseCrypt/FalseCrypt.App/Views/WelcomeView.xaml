@@ -1,0 +1,71 @@
+﻿<UserControl
+    x:Class="FalseCrypt.App.Views.WelcomeView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="350"
+    d:DesignWidth="350"
+    Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"
+    mc:Ignorable="d">
+    <Grid Margin="6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="3" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="6" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <TextBlock
+                Margin="6,0,0,0"
+                FontSize="18"
+                FontWeight="Bold"
+                Text="Welcome to FalseCrypt"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap" />
+            <TextBlock
+                Grid.Row="2"
+                Margin="6,0,12,0"
+                Text="FalseCrypt is probably the most insecure file encryption program you will ever see. It's only purpose is to demonstrate the effectiveness of a static code analysis tool like Sharper Crypto-API Analysis."
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap" />
+            <TextBlock
+                Grid.Row="4"
+                Margin="6,0,12,0"
+                Text="You have been warned!"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap" />
+            <Rectangle
+                Grid.Row="5"
+                Height="1"
+                Margin="-6,3,-6,0"
+                HorizontalAlignment="Stretch"
+                Fill="DarkGray" />
+        </Grid>
+        <Grid Grid.Row="1" Margin="0,12,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <TextBlock
+                Grid.Row="0"
+                HorizontalAlignment="Center"
+                Text="Which action would you like to perform?" />
+            <StackPanel
+                Grid.Row="1"
+                Margin="12"
+                HorizontalAlignment="Center">
+                <Button Command="{Binding EncryptFileCommand}">Encrypt File...</Button>
+                <Button Command="{Binding EncryptFolderCommand}">Encrypt Folder...</Button>
+                <Button Command="{Binding DecryptFileCommand}">Decrypt File</Button>
+                <Button Command="{Binding DecryptFolderCommand}">Decrypt Folder...</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

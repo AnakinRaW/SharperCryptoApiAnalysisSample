@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharperCryptoApiAnalysisSample", "src\SharperCryptoApiAnalysisSample\SharperCryptoApiAnalysisSample.csproj", "{4B9BE821-4541-4C7B-B495-2D947347D1A0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FalseCrypt", "FalseCrypt", "{D510C9BD-8A18-4CC2-8702-C16F5F685917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalseCrypt.App", "src\FalseCrypt\FalseCrypt.App\FalseCrypt.App.csproj", "{5A4DD89E-2F5E-41FD-8063-4D90CB8837E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FalseCrypt.Crypto", "src\FalseCrypt\FalseCrypt.Crypto\FalseCrypt.Crypto.csproj", "{E64A22AD-B64E-4D6F-B21E-B6A3CED7AE54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analyzer", "Analyzer", "{1A9CA702-BAB4-4E1B-9506-98F8C3152411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposableAnalyzer.Test", "src\Analyzer\IDisposableAnalyzer\IDisposableAnalyzer.Test\IDisposableAnalyzer.Test.csproj", "{8723B7A8-871B-4FD0-8D3D-270008684DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposableAnalyzer", "src\Analyzer\IDisposableAnalyzer\IDisposableAnalyzer\IDisposableAnalyzer.csproj", "{18C1CF5F-4252-4A7B-9338-467EF836253A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +21,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4B9BE821-4541-4C7B-B495-2D947347D1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B9BE821-4541-4C7B-B495-2D947347D1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B9BE821-4541-4C7B-B495-2D947347D1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B9BE821-4541-4C7B-B495-2D947347D1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4DD89E-2F5E-41FD-8063-4D90CB8837E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4DD89E-2F5E-41FD-8063-4D90CB8837E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4DD89E-2F5E-41FD-8063-4D90CB8837E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4DD89E-2F5E-41FD-8063-4D90CB8837E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64A22AD-B64E-4D6F-B21E-B6A3CED7AE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64A22AD-B64E-4D6F-B21E-B6A3CED7AE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64A22AD-B64E-4D6F-B21E-B6A3CED7AE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64A22AD-B64E-4D6F-B21E-B6A3CED7AE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8723B7A8-871B-4FD0-8D3D-270008684DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8723B7A8-871B-4FD0-8D3D-270008684DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8723B7A8-871B-4FD0-8D3D-270008684DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8723B7A8-871B-4FD0-8D3D-270008684DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C1CF5F-4252-4A7B-9338-467EF836253A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C1CF5F-4252-4A7B-9338-467EF836253A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C1CF5F-4252-4A7B-9338-467EF836253A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C1CF5F-4252-4A7B-9338-467EF836253A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A4DD89E-2F5E-41FD-8063-4D90CB8837E3} = {D510C9BD-8A18-4CC2-8702-C16F5F685917}
+		{E64A22AD-B64E-4D6F-B21E-B6A3CED7AE54} = {D510C9BD-8A18-4CC2-8702-C16F5F685917}
+		{8723B7A8-871B-4FD0-8D3D-270008684DA2} = {1A9CA702-BAB4-4E1B-9506-98F8C3152411}
+		{18C1CF5F-4252-4A7B-9338-467EF836253A} = {1A9CA702-BAB4-4E1B-9506-98F8C3152411}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6C29EEF-B80B-4DF1-83C0-565B4889A491}
