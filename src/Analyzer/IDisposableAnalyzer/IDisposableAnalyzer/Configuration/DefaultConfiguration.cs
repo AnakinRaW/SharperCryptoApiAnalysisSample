@@ -34,7 +34,9 @@ namespace IDisposableAnalyzer.Configuration {
                 "System.Security.Cryptography.FromBase64Transform",
                 "System.Security.Cryptography.RijndaelManagedTransform",
                 "System.Security.Cryptography.ToBase64Transform",
-                "System.Security.Cryptography.HashAlgorithm",      
+                "System.Security.Cryptography.HashAlgorithm",
+                "System.Security.Cryptography.DeriveBytes",
+                "System.Security.Cryptography.SymmetricAlgorithm",      
             };
             IgnoredInterfaces = new HashSet<string>
             {
