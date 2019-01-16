@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("IDisposableAnalyzer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Analyses code for bad usage of IDisposable instances")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("IDisposableAnalyzer")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("Copyright © David Störmer, Sebastian Leuer")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
